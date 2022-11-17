@@ -72,6 +72,7 @@ menu.onKeyDownHandler = function(event){
             if($('.info-container').find(".focus").next('.menu-item').length){
                 $('.info-container').find('.focus').removeClass('focus').next('.menu-item').addClass('focus');
             }else{
+		$("input[type=text]").blur();
                 $('.info-container').find('.focus').removeClass('focus')
                 $('.info-container').find('#collections').addClass('focus')
             }
