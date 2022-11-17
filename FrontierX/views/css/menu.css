@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+#menu{
+    height: 100%;  
+    width: 17%;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background: rgba(16, 16, 16, 0.67);
+    overflow-x: hidden;
+    padding-top: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+#menu .logo img{
+    width: 80%;
+    position: relative;
+    bottom: 17em;
+}
+.search-container{
+    position: relative;
+    bottom: 12em;
+}
+
+.col-xl-6{
+    width: 90% !important;
+}
+.form{
+    position: relative;
+}
+.form .form-control{
+    background-color: rgba(167, 167, 167, 0.24);
+}
+
+.form .fa-search{
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #ffffff;
+}
+
+.form-input{
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 30px;
+}
+
+.form-input:focus{
+    box-shadow: none;
+    border:none;
+}
+
+.info-container{
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    position: relative;
+    bottom: 16%;
+    text-align: left;
+}
+
+.info-container span{
+    border-bottom: solid #f8f9fa2e 1px;
+    padding-bottom: 1rem;
+    height: 85px;
+    padding-top: 21px;
+    padding-left: 2em;
+}
+.info-container img{
+    width: 1em;
+    margin-right: 1em;
+}
+.icon-pic{
+    background-color: white;
+}
+.closeMenu{
+	transform: translateX(-100%);
+    transition: transform 0.8s ease-in-out 0.8s;
+}
+.displayMenu{
+	animation-name: slideout;
+	animation-duration: 1s;
+}
+.menu-item.focus{
+	background-color:  #ff00a5;
+}
+
+.icon-pic{
+    background-color: white;
+}

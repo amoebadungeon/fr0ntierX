@@ -1,0 +1,13 @@
+{
+  "id": "com.fr0ntierx.app",
+  "version": "0.0.1",
+  "vendor": "My Company",
+  "type": "web",
+  "main": "index.html",
+  "title": "fr0ntierX",
+  "icon": "views/img/profile_logo.jpg",
+  "largeIcon": "views/img/profile_logo.jpg",
+  "disableBackHistoryAPI": true,
+  "resolution" : "1920x1080"
+}
+
